@@ -29,7 +29,7 @@
 
 ### Installation:
 
-You can download the template here: [Latest Release](https://github.com/joeyjurjens/iOS-Mod-Menu-Template-for-Theos/releases/latest). <br>
+You can download the template here: [Latest Release](https://github.com/Leeksov/Leeksov-s-Mod-Menu-Template/releases/tag/release). <br>
 **iOS**
 1. In the makefile on line 22, you've to set the path to your SDK. This menu has been tested with the "iPhoneOS11.2.sdk" SDK from [theos/sdks](https://github.com/theos/sdks)
 2. I use initializer_list in this project, iOS doesn't have this included by itself. You can download it [**here**](https://raw.githubusercontent.com/joeyjurjens/iOS-Mod-Menu-Template-for-Theos/977e9ff2c626d6b1308eed7e17f1daf0a610e8e9/template/KittyMemory/initializer_list), save it as "initializer_list" and copy the file to: "$THEOS/sdks/iPhoneOS11.2.sdk/usr/include/c++/4.2.1/" <br>
